@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather ☀️</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar" style="background-color: #aedadd">
+        <div class="container-fluid">
+          <a class="navbar-brand">Weather</a>
+          <form class="d-flex" role="search" id="search-city">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Enter your city"
+              aria-label="Search"
+              id="city-input"
+            />
+            <button class="btn btn-outline-success" type="submit" id="search-button">
+              Search
+            </button>
+          </form>
+              <button class="btn btn-outline-success" type="submit" id="current-button">
+                Current
+              </button>
+        </div>
+      </nav>
+      <h1 class="currentCity" id="city"></h1>
+      <hr />
+      <br />
+    <div class="row current">
+            <div class="col-4">
+              <div class="date" id="date">
+                <span id="day">Sunday</span>
+                <br />
+                <span id="month">August 26, 2022
+                <br />
+                <span id="time">10:10 pm</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="emoji">🌤️</div>
+              <div class="temperature" id="temperature">74°</div>
+              <div class="units">
+                <a href="#" id="fahrenheit-Temp">°F</a> | 
+                <a href="#" id="celsius-Temp">°C</a>
+              </div> 
+            </div>
+            <div class="col-3">
+              <div class="column weather">
+                 <h3 id="description"></h3>
+                 <p>
+                  Wind: <span id ="wind"></span> mph
+                  <br />
+                  Humidity: <span id ="humidity"></span>%
+                </p>
+              </div>
+            </div>
+          </div>
+      <br />
+      <br />
+       <div class="container">
+            <div class="row row-cols-sm-5 forecast">
+            <div id="allCards">
+              <div class="col-sm-12 forecast-day">
+                <div class="card" style="width: 10rem; margin: 0.5rem;">
+                  <div class="card-body">
+                  Tuesday
+                  <div class="forecast-emoji">☀️</div>
+                  83°
+                  <div class="smile">😎</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 forecast-day">
+                <div class="card" style="width: 10rem; margin: 0.5rem;">
+              <div class="card-body">
+                Wednesday
+                <div class="forecast-emoji">☀️</div>
+                83°F
+                <div class="smile">😎</div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-12 forecast-day">              
+                <div class="card" style="width: 10rem; margin: 0.5rem;">
+              <div class="card-body">
+                Thursday
+                <div class="forecast-emoji">⛅</div>
+                81°F
+                  <div class="smile">😎</div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-12 forecast-day">              
+                <div class="card" style="width: 10rem; margin: 0.5rem;">
+              <div class="card-body">
+                Friday
+                <div class="forecast-emoji">☀️</div>
+                79°F
+                <div class="smile">😁</div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-12 forecast-day">              
+                <div class="card" style="width: 10rem; margin: 0.5rem;">
+              <div class="card-body">
+                Saturday
+                <div class="forecast-emoji">☀️</div>
+                79°F
+                <div class="smile">😁</div>
+              </div>
+            </div>
+          </div>
+</div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
