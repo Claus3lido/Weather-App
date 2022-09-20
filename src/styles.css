@@ -1,5 +1,5 @@
 body {
-  background: #fcf8f3;
+  background: rgb(252, 249, 244);
   font-family: "Poppins", sans-serif;
   margin-top: 100px;
   box-sizing: border-box;
@@ -28,6 +28,11 @@ ul {
   padding: 5px;
   margin-right: auto;
   margin-left: auto;
+  background-color: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
   border: solid rgb(174, 218, 221) 2px;
 }
 .weatherInfo .temperature-container {
