@@ -18,6 +18,23 @@ ul {
   border: solid rgb(174, 218, 221) 2px;
   padding: 5px;
 }
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.weatherInfo .temperature-container {
+  margin: 30px;
+}
 #search-button {
   margin-right: 5px;
 }
