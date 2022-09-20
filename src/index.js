@@ -30,18 +30,6 @@ function searchCity(event) {
   cityName.innerHTML = cityInput.value;
 }
 
-function convertFahrenheit(event) {
-  event.preventDefault();
-  let tempNow = document.querySelector("#temperature");
-  tempNow.innerHTML = "80°";
-}
-
-function convertCelsius(event) {
-  event.preventDefault();
-  let tempNow = document.querySelector("#temperature");
-  tempNow.innerHTML = "26°";
-}
-
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -92,12 +80,6 @@ date.innerHTML = formatDate(currentTime);
 
 let searchForm = document.querySelector("form");
 searchForm.addEventListener("submit", searchCity);
-
-let fahrenheitNow = document.querySelector("#fahrenheit-Temp");
-fahrenheitNow.addEventListener("click", convertFahrenheit);
-
-let celsiusNow = document.querySelector("#celsius-Temp");
-celsiusNow.addEventListener("click", convertCelsius);
 
 let button = document.querySelector("#search-button");
 button.addEventListener("click", handleSubmit);
