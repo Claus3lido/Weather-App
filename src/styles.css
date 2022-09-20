@@ -18,12 +18,6 @@ ul {
   border: solid rgb(174, 218, 221) 2px;
   padding: 5px;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 #search-button {
   margin-right: 5px;
 }
