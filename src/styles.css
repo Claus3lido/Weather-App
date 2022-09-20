@@ -11,6 +11,8 @@ footer {
 ul {
   display: block;
   list-style: none;
+}
+.container {
   box-sizing: border-box;
   width: 100%;
   border: solid rgb(174, 218, 221) 2px;
