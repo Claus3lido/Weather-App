@@ -23,8 +23,7 @@ ul {
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 5px;
   margin-right: auto;
   margin-left: auto;
   border: solid rgb(174, 218, 221) 2px;
