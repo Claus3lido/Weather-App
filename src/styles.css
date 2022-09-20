@@ -2,3 +2,6 @@ body {
   background: #fcf8f3;
   font-family: "Poppins", sans-serif;
 }
+#search-button {
+  padding: 0 5px;
+}
