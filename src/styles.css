@@ -28,7 +28,7 @@ ul {
   padding: 5px;
   margin-right: auto;
   margin-left: auto;
-  background-color: linear-gradient(
+  background: linear-gradient(
     181.2deg,
     rgb(181, 239, 249) 10.5%,
     rgb(254, 254, 254) 86.8%
