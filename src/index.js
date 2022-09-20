@@ -20,7 +20,7 @@ function formatDate(date) {
   ];
   let currentDay = days[day];
 
-  return `${currentDay} <br /> ${hours}:${minutes}`;
+  return `${currentDay} ${hours}:${minutes}`;
 }
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
