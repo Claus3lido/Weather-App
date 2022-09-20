@@ -18,6 +18,9 @@ ul {
   border: solid rgb(174, 218, 221) 2px;
   padding: 5px;
 }
+.weatherInfo .temperature-container {
+  margin: 30px;
+}
 .col-6 {
   flex: 0 0 50%;
   max-width: 50%;
