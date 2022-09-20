@@ -41,7 +41,7 @@ ul {
   display: flex !important;
 }
 .weather-forcast {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid rgb(174, 218, 221);
   margin: 30px 0;
   padding-bottom: 30px;
   text-align: center;
