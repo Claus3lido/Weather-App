@@ -12,6 +12,7 @@ ul {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 400px 30px;
 }
 #search-button {
   margin-right: 5px;
