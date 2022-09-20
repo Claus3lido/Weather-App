@@ -67,6 +67,14 @@ ul {
 .weatherInfo .temperature-container {
   margin: 30px;
 }
+.unit {
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  color: #212121;
+}
 #icon {
   font-size: 40px;
 }
