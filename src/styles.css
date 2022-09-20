@@ -3,5 +3,5 @@ body {
   font-family: "Poppins", sans-serif;
 }
 #search-button {
-  padding: 0 5px;
+  margin-right: 3px;
 }
