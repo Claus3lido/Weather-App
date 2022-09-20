@@ -68,11 +68,11 @@ ul {
   margin: 30px;
 }
 .units {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 200;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -20px;
   color: #212121;
 }
 #icon {
