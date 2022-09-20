@@ -28,11 +28,7 @@ ul {
   padding: 5px;
   margin-right: auto;
   margin-left: auto;
-  background: linear-gradient(
-    181.2deg,
-    rgb(181, 239, 249) 10.5%,
-    rgb(254, 254, 254) 86.8%
-  );
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   border: solid rgb(174, 218, 221) 2px;
 }
 .weatherInfo .temperature-container {
