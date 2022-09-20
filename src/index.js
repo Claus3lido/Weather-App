@@ -19,26 +19,8 @@ function formatDate(date) {
     "Saturday",
   ];
   let currentDay = days[day];
-  let months = [
-    "Jan",
-    "Feb",
-    "March",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
-  ];
-  let month = date.getMonth();
-  let currentMonth = months[month];
-  let year = date.getFullYear();
-  let currentDate = date.getDate();
 
-  return `${currentMonth} ${currentDate} ${year} <br /> ${currentDay} <br /> ${hours}:${minutes}`;
+  return `${currentDay} <br /> ${hours}:${minutes}`;
 }
 
 function searchCity(event) {
