@@ -1,7 +1,8 @@
 body {
   background: #fcf8f3;
   font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 footer {
   text-align: center;
