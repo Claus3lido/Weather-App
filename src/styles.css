@@ -11,6 +11,7 @@ h1 {
 }
 footer {
   text-align: center;
+  font-size: smaller;
 }
 ul {
   display: block;
@@ -54,7 +55,7 @@ ul {
   opacity: 0.5;
 }
 .weather-forcast-temperatures {
-  color: #f65288;
+  color: rgb(174, 218, 221;
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
