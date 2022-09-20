@@ -67,6 +67,9 @@ ul {
 .weatherInfo .temperature-container {
   margin: 30px;
 }
+#icon {
+  font-size: 40px;
+}
 #search-button {
   margin-right: 5px;
 }
