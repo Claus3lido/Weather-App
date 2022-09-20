@@ -1,10 +1,9 @@
 body {
   background: #fcf8f3;
   font-family: "Poppins", sans-serif;
-  margin: 100px 0px;
+  box-sizing: border-box;
 }
 footer {
-  display: block;
   text-align: center;
 }
 ul {
