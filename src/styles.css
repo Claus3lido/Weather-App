@@ -1,8 +1,6 @@
 body {
   background: #fcf8f3;
   font-family: "Poppins", sans-serif;
-  margin-left: 400px;
-  margin-right: 400px;
 }
 footer {
   text-align: center;
@@ -10,6 +8,13 @@ footer {
 ul {
   display: block;
   list-style: none;
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #search-button {
   margin-right: 5px;
