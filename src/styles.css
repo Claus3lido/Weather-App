@@ -28,7 +28,6 @@ ul {
   padding: 5px;
   margin-right: auto;
   margin-left: auto;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   border: solid rgb(174, 218, 221) 2px;
 }
 .weatherInfo .temperature-container {
